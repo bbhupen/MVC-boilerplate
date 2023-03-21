@@ -1,0 +1,37 @@
+<body>
+
+<h1>Welcome <%= admin.name  %> </h1>
+
+
+<h2>Admin Email: <%= admin.email %></h2>
+<h2>Admin Mobile: <%= admin.phone %></h2>
+
+<h3>User Data</h3>
+<table width="70%">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Hashed Password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% user.forEach(function(user) { %>
+        <tr>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.phone %></td>
+          <td><%= user.password %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+
+<br><br>
+<a href="/admin/logout">Logout</a>
+
+
+
+
+</body>
