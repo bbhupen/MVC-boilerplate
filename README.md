@@ -20,6 +20,7 @@ To run this project, you'll need to have the following software installed on you
 
 - [Node.js](https://nodejs.org/en/download/)
 - [MongoDB](https://docs.mongodb.com/manual/installation/)
+- Other necessary softwares
 
 ### Installation
 
