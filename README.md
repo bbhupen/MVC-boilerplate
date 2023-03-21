@@ -35,7 +35,6 @@ cd MVC-boilerplate
 
 ```
 npm install
-
 ```
 ### Environment Variables
 
