@@ -22,6 +22,13 @@ To run this project, you'll need to have the following software installed on you
 - [MongoDB](https://docs.mongodb.com/manual/installation/)
 - Other necessary softwares
 
+
+Rename the .env.example to .env and put your own variables
+
+```
+mv .env.example .env
+```
+
 ### Installation
 
 1. Clone the repository to your local machine:
